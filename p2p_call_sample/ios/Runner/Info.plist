@@ -54,7 +54,7 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>RTCScreenSharingExtension</key>
-    <string>com.connectycube.flutter.p2p-call-sample.app.Broadcast-Extension</string>
+    <string>com.temanbersama.provider.Broadcast-Extension</string>
     <key>RTCAppGroupIdentifier</key>
     <string>group.com.connectycube.flutter</string>
 	<key>CADisableMinimumFrameDurationOnPhone</key>

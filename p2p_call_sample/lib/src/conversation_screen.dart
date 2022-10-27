@@ -1,7 +1,6 @@
 import 'package:connectycube_sdk/connectycube_sdk.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:universal_io/io.dart';
 import 'package:web_browser_detect/web_browser_detect.dart';
 
 import 'login_screen.dart';
