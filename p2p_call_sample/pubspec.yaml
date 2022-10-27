@@ -9,11 +9,11 @@ environment:
 dependencies:
   connectycube_flutter_call_kit: ^2.2.1
   connectycube_sdk: ^2.2.3
-  device_info_plus: ^8.0.0
+  device_info_plus: ^3.2.3
   flutter:
     sdk: flutter
   flutter_background: ^1.1.0
-  package_info_plus: ^3.0.1
+  package_info_plus: ^1.4.2
   permission_handler: ^10.2.0
   platform_device_id: ^1.0.1
   shared_preferences: ^2.0.15
