@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "852130744366",
+    "project_id": "teman-bicara-2ce41",
+    "storage_bucket": "teman-bicara-2ce41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852130744366:android:a751704efe43617269f7bf",
+        "android_client_info": {
+          "package_name": "com.temanbersama.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852130744366-33olhsn9r46f7mpeccnbm5aqtn8eduf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoAe0CfFLfydCHPVZUlSorwNjZApIwtEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852130744366-33olhsn9r46f7mpeccnbm5aqtn8eduf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852130744366:android:6b96a72a69453b5569f7bf",
+        "android_client_info": {
+          "package_name": "com.temanbersama.provider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852130744366-33olhsn9r46f7mpeccnbm5aqtn8eduf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoAe0CfFLfydCHPVZUlSorwNjZApIwtEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852130744366-33olhsn9r46f7mpeccnbm5aqtn8eduf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
