@@ -9,20 +9,20 @@
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		1B2A87D762C13ADC52C43184 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245B3438F9416C97F960DF6B /* Pods_Runner.framework */; };
+		33E51846290AC93A0061C772 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33E51845290AC93A0061C772 /* GoogleService-Info.plist */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		A5197DE7288977B5009BE202 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5197DE6288977B5009BE202 /* ReplayKit.framework */; };
-		A5197DEE288977B5009BE202 /* Broadcast Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A5197DE5288977B5009BE202 /* Broadcast Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A5197DEE288977B5009BE202 /* Broadcast Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A5197DE5288977B5009BE202 /* Broadcast Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A5197DF528897980009BE202 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5197DF428897980009BE202 /* Atomic.swift */; };
 		A5197DF72889798C009BE202 /* DarwinNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5197DF62889798C009BE202 /* DarwinNotificationCenter.swift */; };
 		A5197DFD288979B1009BE202 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5197DFA288979B1009BE202 /* SampleHandler.swift */; };
 		A5197DFE288979B1009BE202 /* SampleUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5197DFB288979B1009BE202 /* SampleUploader.swift */; };
 		A5197DFF288979B1009BE202 /* SocketConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5197DFC288979B1009BE202 /* SocketConnection.swift */; };
 		A534AF4328899859003E435B /* Broadcast Extension.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = A534AF4228899859003E435B /* Broadcast Extension.entitlements */; };
-		A558A6F725CAE77A007E898E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A558A6F625CAE77A007E898E /* GoogleService-Info.plist */; };
 		A5D8473E27959B7B0053FF43 /* custom_ringtone.caf in Resources */ = {isa = PBXBuildFile; fileRef = A5D8473D27959B7B0053FF43 /* custom_ringtone.caf */; };
 /* End PBXBuildFile section */
 
@@ -47,15 +47,15 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5C81D1027722EE3009691D9 /* Embed App Extensions */ = {
+		A5C81D1027722EE3009691D9 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				A5197DEE288977B5009BE202 /* Broadcast Extension.appex in Embed App Extensions */,
+				A5197DEE288977B5009BE202 /* Broadcast Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -65,6 +65,7 @@
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		21A42230DE44BEAF1CC4D32A /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		245B3438F9416C97F960DF6B /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E51845290AC93A0061C772 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../lib/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
 		6AE8A79DDBE6C4D6794FC2C3 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -88,7 +89,6 @@
 		A5197DFC288979B1009BE202 /* SocketConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketConnection.swift; sourceTree = "<group>"; };
 		A534AF4228899859003E435B /* Broadcast Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Broadcast Extension.entitlements"; sourceTree = "<group>"; };
 		A534E2CB26BC07DA0072CB0E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		A558A6F625CAE77A007E898E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A588C0A025C9B9A5005025C4 /* P2PCallsSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = P2PCallsSample.entitlements; sourceTree = "<group>"; };
 		A5D8473D27959B7B0053FF43 /* custom_ringtone.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = custom_ringtone.caf; path = Resources/ringtones/custom_ringtone.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +136,7 @@
 		9740EEB11CF90186004384FC /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
+				33E51845290AC93A0061C772 /* GoogleService-Info.plist */,
 				3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */,
 				9740EEB21CF90195004384FC /* Debug.xcconfig */,
 				7AFA3C8E1D35360C0083082E /* Release.xcconfig */,
@@ -169,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				A5D8473D27959B7B0053FF43 /* custom_ringtone.caf */,
-				A558A6F625CAE77A007E898E /* GoogleService-Info.plist */,
 				A588C0A025C9B9A5005025C4 /* P2PCallsSample.entitlements */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
@@ -220,7 +220,7 @@
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
 				1AE56D3ABC8CEF5A17179F06 /* [CP] Embed Pods Frameworks */,
-				A5C81D1027722EE3009691D9 /* Embed App Extensions */,
+				A5C81D1027722EE3009691D9 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -256,7 +256,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = "The Chromium Authors";
 				TargetAttributes = {
 					97C146ED1CF9000F007C117D = {
@@ -296,10 +296,10 @@
 			files = (
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
-				A558A6F725CAE77A007E898E /* GoogleService-Info.plist in Resources */,
 				A5D8473E27959B7B0053FF43 /* custom_ringtone.caf in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
+				33E51846290AC93A0061C772 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,7 +656,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.3.2;
-				DEVELOPMENT_TEAM = 92G479T7LY;
+				DEVELOPMENT_TEAM = AH8VK6FUYR;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -692,7 +692,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.3.2;
-				DEVELOPMENT_TEAM = 92G479T7LY;
+				DEVELOPMENT_TEAM = AH8VK6FUYR;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -729,7 +729,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.3.2;
-				DEVELOPMENT_TEAM = 92G479T7LY;
+				DEVELOPMENT_TEAM = AH8VK6FUYR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Broadcast Extension/Info.plist";
@@ -766,7 +766,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.3.2;
-				DEVELOPMENT_TEAM = 92G479T7LY;
+				DEVELOPMENT_TEAM = AH8VK6FUYR;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Broadcast Extension/Info.plist";

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>852130744366-t7vkdbqg9398u2kq1u2v543ubojkiecn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.852130744366-t7vkdbqg9398u2kq1u2v543ubojkiecn</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>852130744366-94h6727p8ij2nkp3f0a6sgpbakgdbq43.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDV7hI1aUvzWpM9mr8O0NOZ4q1lR9Uai9Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>852130744366</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.temanbersama.provider</string>
+	<key>PROJECT_ID</key>
+	<string>teman-bicara-2ce41</string>
+	<key>STORAGE_BUCKET</key>
+	<string>teman-bicara-2ce41.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:852130744366:ios:2340e33c05e0257869f7bf</string>
+</dict>
+</plist>
