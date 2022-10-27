@@ -1,8 +1,8 @@
 import 'package:connectycube_sdk/connectycube_sdk.dart';
 
-const String APP_ID = "476";
-const String AUTH_KEY = "PDZjPBzAO8WPfCp";
-const String AUTH_SECRET = "6247kjxXCLRaua6";
+const String APP_ID = "6692";
+const String AUTH_KEY = "XdMcEyx8njBkBhs";
+const String AUTH_SECRET = "75UcdAab-XbVEqC";
 const String ACCOUNT_ID = "TpuBZox_HPxofh7PVZdP";
 const String DEFAULT_PASS = "xxasBUM3gQs36bhj";
 
